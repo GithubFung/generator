@@ -1,0 +1,20 @@
+package com.lzj_seckill.service.impl;
+
+import com.lzj_seckill.pojo.Goods;
+import com.lzj_seckill.mapper.GoodsMapper;
+import com.lzj_seckill.service.IGoodsService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author feng
+ * @since 2023-01-02
+ */
+@Service
+public class GoodsServiceImpl extends ServiceImpl<GoodsMapper, Goods> implements IGoodsService {
+
+}
